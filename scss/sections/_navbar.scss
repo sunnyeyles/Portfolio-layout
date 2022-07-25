@@ -1,0 +1,22 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu{
+    background: linear-gradient(to left,  rgb(230, 109, 217), rgb(189, 85, 193));
+    border-bottom: solid 5px rgba(black, 0.3);
+    font-size: 1.5rem;
+    //logo
+    .navbar-brand{
+        color:white;
+        font-size: 2rem;
+        -webkit-transition: letter-spacing 2s ease-out;
+        -moz-transition: letter-spacing 2s ease-out;
+        -o-transition: letter-spacing 2s ease-out;
+        transition: letter-spacing 2s ease-out;
+        font-weight: 400;
+        &:hover{
+            color: rgba(black, 0.8);
+            letter-spacing: 0.8rem;
+        }
+    }
+}

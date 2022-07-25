@@ -1,0 +1,13 @@
+@use "custom";
+
+//import components
+@use"components/buttons";
+@use"components/animations";
+@use"components/mixins";
+@use"components/typography";
+
+// import sections
+@use"sections/navbar";
+@use"sections/intro";
+@use"sections/main-layout";
+@use"sections/footer";

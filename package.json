@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-5",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "bootstrap",
+    "v5",
+    "sass"
+  ],
+  "author": "Sunny Eyles",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.1",
+    "autoprefixer": "^10.4.7",
+    "bootstrap": "^5.2.0",
+    "postcss-cli": "^10.0.0"
+  }
+}
