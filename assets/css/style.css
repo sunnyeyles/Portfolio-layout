@@ -10833,6 +10833,9 @@ body {
   margin: 0 auto !important;
   float: none !important;
 }
+body .big-koala h2 {
+  text-align: center;
+}
 body .big-koala p {
   text-align: center;
   padding: 20px;
@@ -10844,6 +10847,7 @@ body .big-koala img {
   width: 95%;
   border: solid black 2px;
   max-height: 90vh;
+  max-width: 745px;
 }
 body .first-section {
   margin-top: 20px;
