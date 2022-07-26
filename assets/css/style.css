@@ -10833,6 +10833,18 @@ body {
   margin: 0 auto !important;
   float: none !important;
 }
+body .big-koala p {
+  text-align: center;
+  padding: 20px;
+}
+body .big-koala img {
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  width: 95%;
+  border: solid black 2px;
+  max-height: 90vh;
+}
 body .first-section {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -10841,6 +10853,7 @@ body .second-section img {
   width: 45%;
   margin-top: 20px;
   margin-bottom: 20px;
+  box-shadow: 5px 5px 15px #363c2a, -5px -5px 15px rgba(255, 255, 255, 0.2);
 }
 
 footer {

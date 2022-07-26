@@ -9,6 +9,20 @@ body{
     max-width: 1600px;
     margin: 0 auto !important;
     float: none !important;
+    .big-koala{
+        p{
+            text-align: center;
+            padding: 20px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            border-radius: 5px;
+            width: 95%;
+            border: solid black 2px;
+            max-height: 90vh;
+        }
+    }
     .first-section{
         margin-top: 20px;
         margin-bottom: 20px;
@@ -18,6 +32,8 @@ body{
             width: 45%;
             margin-top: 20px;
             margin-bottom: 20px;
+            box-shadow: 5px 5px 15px #363c2a,
+            -5px -5px 15px rgba(#fff, 0.2);
         }
     }
 }
