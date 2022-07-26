@@ -9,4 +9,15 @@ body{
     max-width: 1600px;
     margin: 0 auto !important;
     float: none !important;
+    .first-section{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .second-section{
+        img{
+            width: 45%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+    }
 }

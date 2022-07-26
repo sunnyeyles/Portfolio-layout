@@ -19,7 +19,7 @@ body{
             }
         }
     .display-2{
-        font-family: roboto;
+        // font-family: roboto;
         margin-bottom: 1rem;
         text-transform: capitalize;
         &--intro{
@@ -33,5 +33,25 @@ body{
     }
     .main-section{
         font-size: 1.3rem;
+        font-family: sans-serif;
     }
+    footer {
+            p {
+                font-size: 0.5rem;
+                footer{
+            background-color: $robo-green;
+            a{
+                i{
+                color: $primary;
+                }
+            }
+            p{
+            text-align: right;
+            padding-top: 10px;
+            font-family: roboto;
+            color: $primary;
+            }
+        }
+    }
+}
 }

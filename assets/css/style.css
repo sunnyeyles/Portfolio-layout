@@ -10773,7 +10773,6 @@ body .menu .navbar-brand:hover {
   letter-spacing: 0.8rem;
 }
 body .display-2 {
-  font-family: roboto;
   margin-bottom: 1rem;
   text-transform: capitalize;
 }
@@ -10787,6 +10786,22 @@ body .display-2--description {
 }
 body .main-section {
   font-size: 1.3rem;
+  font-family: sans-serif;
+}
+body footer p {
+  font-size: 0.5rem;
+}
+body footer p footer {
+  background-color: #7f8153;
+}
+body footer p footer a i {
+  color: #05386b;
+}
+body footer p footer p {
+  text-align: right;
+  padding-top: 10px;
+  font-family: roboto;
+  color: #05386b;
 }
 
 .menu {
@@ -10806,7 +10821,6 @@ body .main-section {
 }
 .intro-section img {
   box-shadow: 5px 5px 15px #363c2a, -5px -5px 15px rgba(255, 255, 255, 0.2);
-  margin: auto;
 }
 
 html {
@@ -10818,6 +10832,15 @@ body {
   max-width: 1600px;
   margin: 0 auto !important;
   float: none !important;
+}
+body .first-section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+body .second-section img {
+  width: 45%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 footer {
