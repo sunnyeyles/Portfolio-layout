@@ -5,15 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+    integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="./scss/components/images/angus-mcdonald-koala-finish-2d.jpg">
 
 </head>
 <body>
+
     <!-- nav bar -->
     <nav class="navbar navbar-expand-lg navbar-light menu">
         <div class="container">
-            <!-- <img class="w-25 h-25" src="./scss/components/images/tosto_n_doggy_web.png" alt="koala"> -->
-            <a class="navbar-brand" href="#">Sunny Eyles</a>
+            <a class="navbar-brand" href="#">cuntHole gmbh</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,30 +33,77 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
-                <!-- <button type="button" class="rounded-pill btn-rounded">sunnyeyles@gmail.com
-                </button> -->
             </div>
         </div>
     </nav>
 
     <!-- intro -->
-
     <section id="home" class="intro-section">
-        <div class="container">
-            <div class="row">
-                <div class="row">
-                    <div class="col-md-6 intro">
-                        <h1 class="display-2">
-                            <span class="display-2--intro">here is the intro</span>
-                            <span class="display-2--description">here is the description</span>
-                            <button type="button" class="btn btn-primary btn-lg">Github</button>
-                        </h1>
-                    </div>
-                    <div class="col-md-6 intro"></div>
+        <!-- carousel -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./scss/components/images/angus-mcdonald-doggyvac-ta-web.jpg" class="d-block w-100" style="height: 30vh; object-fit: cover" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./scss/components/images/angus-mcdonald-toast-web-cropped.jpg" class="d-block w-100" style="height: 30vh; object-fit: cover" alt="...">
                 </div>
             </div>
         </div>
+
+        <div class="container" style="margin: 50px 0px 50px 0px">
+                <div class="row no-gutters" style="margin: auto">
+                    <div class="col-md-6 intro">
+                        <h1 class="display-2 text-right">
+                            <span class="display-2--intro">“If you want to keep a secret, you must also hide it from yourself.”</span>
+                            <span class="display-2--description">here is the description</span>
+                            
+                            <a href="#" target=”_blank”><button type="button" class="btn btn-primary btn-lg">Github</button></a>
+                        </h1>
+                    </div>
+                    <div class="col-md-6 mx-auto intro">
+                        <img class="w-100 rounded float-start border border-dark" src="./scss/components/images/tosto_n_doggy_web.png" alt="">
+                        <img class="w-100 mx-auto rounded float-start border border-dark m-4" src="./scss/components/images/angus-mcdonald-koala-finish-2d.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
+
+        <div class="container m-12" >
+            <div class="row mx-auto no-gutters" style="margin: auto">
+                <div class="col-xs-12 col-sm-12 col-md-6">“In the face of pain there are no heroes.” “Power is in tearing human minds to pieces and putting them together again in
+                new shapes of your own choosing.” “If you loved someone, you loved him, and when you had nothing else to give, you still
+                gave him love.” “Perhaps a lunatic was simply a minority of one.”</div>
+                <div class="col-xs-12 col-sm-12 col-md-6">“In the face of pain there are no heroes.” “Power is in tearing human minds to pieces and putting them together again in
+                new shapes of your own choosing.” “If you loved someone, you loved him, and when you had nothing else to give, you still
+                gave him love.” “Perhaps a lunatic was simply a minority of one.”</div>
+                <div class="col-xs-12 col-sm-12 col-md-6">“In the face of pain there are no heroes.” “Power is in tearing human minds to pieces and putting them together again in
+                new shapes of your own choosing.” “If you loved someone, you loved him, and when you had nothing else to give, you still
+                gave him love.” “Perhaps a lunatic was simply a minority of one.”</div>
+                <div class="col-xs-12 col-sm-12 col-md-6">“In the face of pain there are no heroes.” “Power is in tearing human minds to pieces and putting them together again in
+                new shapes of your own choosing.” “If you loved someone, you loved him, and when you had nothing else to give, you still
+                gave him love.” “Perhaps a lunatic was simply a minority of one.”</div>
+            </div>
+        </div>
+
+    <!-- footer section -->
+    <footer>
+        <div class="container" style="height: 15vh; padding-top: 25px">
+            <div class="row">
+                <div class="col">
+                    <a href="#" target="_blank" style="text-decoration:none"><i class="fa-3x fa-brands fa-linkedin-in footer-icons d-flex justify-content-center"></i></a>
+                </div>
+                <div class="col">
+                    <a href="#" target="_blank" style="text-decoration:none"><i class="fa-3x fa-brands fa-instagram footer-icons d-flex justify-content-center"></i></a>
+                </div>
+                <div class="col">
+                    <a href="#" target="_blank" style="text-decoration:none"><i class="fa-3x fa-brands fa-github footer-icons d-flex justify-content-center"></i></a>
+                </div>
+            </div>
+            <p>Created by Sunny Eyles</p>
+        </div>
+    </footer>
 
 
 
@@ -71,5 +121,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
         integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
         crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+footer{
+    background-color: $robo-green;
+    a{
+        i{
+            color: $primary;
+        }
+    }
+    p{
+        text-align: right;
+        font-size: 0.5rem;
+        padding-top: 10px;
+    }
+}

@@ -1,12 +1,37 @@
-.display-2{
-    margin-bottom: 1rem;
-    text-transform: capitalize;
-    &--intro{
-        display: inline-block;
-        font-weight: 700;
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+body{
+    .menu {
+            font-size: 1.5rem;
+            //logo
+            .navbar-brand {
+                font-size: 2rem;
+                -webkit-transition: letter-spacing 2s ease-out;
+                -moz-transition: letter-spacing 2s ease-out;
+                -o-transition: letter-spacing 2s ease-out;
+                transition: letter-spacing 2s ease-out;
+                font-weight: 400;
+    
+                &:hover {
+                    letter-spacing: 0.8rem;
+                }
+            }
+        }
+    .display-2{
+        font-family: roboto;
+        margin-bottom: 1rem;
+        text-transform: capitalize;
+        &--intro{
+            display: inline-block;
+            font-weight: 700; 
+        }
+        &--description{
+            font-size: 1rem;
+            display:block;
+        }
     }
-    &--description{
-        font-size: 1rem;
-        display:block;
+    .main-section{
+        font-size: 1.3rem;
     }
 }

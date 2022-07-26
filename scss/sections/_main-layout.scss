@@ -1,7 +1,12 @@
 @use "../custom" as *;
 @use "../components/mixins" as *;
+html{
+    background-color: black;
+}
 
 body{
-    background-color: $secondary;
-    color: $primary;
+    box-sizing: border-box;
+    max-width: 1600px;
+    margin: 0 auto !important;
+    float: none !important;
 }
