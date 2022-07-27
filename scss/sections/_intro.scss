@@ -4,6 +4,9 @@
     .intro-section {
         background-color: $robo-green;
         .row{
+            h1{
+                font-weight: 600;
+            }
             .intro{
                 img{
                     // box-shadow: 2px 2px 2px 2px black;

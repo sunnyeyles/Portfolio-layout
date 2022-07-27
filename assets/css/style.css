@@ -10818,6 +10818,9 @@ body footer p footer p {
 .intro-section {
   background-color: #7f8153;
 }
+.intro-section .row h1 {
+  font-weight: 600;
+}
 html {
   background-color: black;
 }
