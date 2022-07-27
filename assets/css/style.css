@@ -10809,7 +10809,6 @@ body footer p footer p {
   border-bottom: solid 5px rgba(0, 0, 0, 0.3);
 }
 .menu .navbar-brand {
-  color: white;
   font-size: 2rem;
 }
 .menu .navbar-brand:hover {
@@ -10819,10 +10818,6 @@ body footer p footer p {
 .intro-section {
   background-color: #7f8153;
 }
-.intro-section img {
-  box-shadow: 5px 5px 15px #363c2a, -5px -5px 15px rgba(255, 255, 255, 0.2);
-}
-
 html {
   background-color: black;
 }
