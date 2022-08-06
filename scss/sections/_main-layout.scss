@@ -41,3 +41,24 @@ body{
         }
     }
 }
+
+// phone portrait mode
+// @media screen and (orientation: portrait) {
+//     body{
+//         img{
+//             max-width: 20px;
+//         }
+//     }
+// }
+@media (orientation: landscape) {
+    body{
+        // background-color: blue;
+        img{
+            // height: 50vh;
+            // width: 10vw;
+            // object-fit: fill;
+            // background-size: cover;
+            // background-position: 50% 50%;
+        }
+    }
+}

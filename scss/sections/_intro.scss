@@ -3,15 +3,27 @@
 
     .intro-section {
         background-color: $robo-green;
+        
         .row{
-            h1{
-                font-weight: 600;
-            }
             .intro{
+                // cursor: url("https: //images.emojiterra.com/google/noto-emoji/v2.034/share/1f916.jpg"), auto;
+
                 img{
+                    // &:hover {
+                    //         cursor: url("https: //images.emojiterra.com/google/noto-emoji/v2.034/share/1f916.jpg"), auto;
+                    //         // cursor:
+                    //     }
+
                     // box-shadow: 2px 2px 2px 2px black;
                     // box-shadow: 5px 5px 15px #363c2a,
                     //         -5px -5px 15px rgba(#fff, 0.2);
+                }
+                .main-header{
+                    font-weight: 500;
+                    // &:hover{
+                    //     // cursor: url("../components/images/angus-mcdonald-doggyvac-ta-web.jpg"), auto;
+                    //     cursor: url(''), auto;
+                    // }
                 }
 
             }
